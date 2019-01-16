@@ -1,0 +1,39 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[[metricbeat-module-http]]
+== http module
+
+experimental[]
+
+This is the http module.
+
+
+
+[float]
+=== Example configuration
+
+The http module supports the standard configuration options that are described
+in <<configuration-metricbeat>>. Here is an example configuration:
+
+[source,yaml]
+----
+prombeat.modules:
+- module: http
+  metricsets: ["prom"]
+  enabled: false
+  period: 10s
+  hosts: ["localhost"]
+
+----
+
+[float]
+=== Metricsets
+
+The following metricsets are available:
+
+* <<metricbeat-metricset-http-prom,prom>>
+
+include::http/prom.asciidoc[]
+

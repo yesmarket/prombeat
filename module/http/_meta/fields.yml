@@ -1,0 +1,11 @@
+- key: http
+  title: "http"
+  description: >
+    experimental[]
+
+    http module
+  fields:
+    - name: http
+      type: group
+      description: >
+      fields:

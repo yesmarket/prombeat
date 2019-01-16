@@ -1,0 +1,1 @@
+/home/ryan/go/src/github.com/yesmarket/prombeat/vendor/github.com/elastic/beats/metricbeat/scripts/generate_imports_helper.py

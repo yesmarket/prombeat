@@ -1,0 +1,9 @@
+# Module: http
+# Docs: https://www.elastic.co/guide/en/beats/prombeat//prombeat-module-http.html
+
+- module: http
+  metricsets: ["prom"]
+  enabled: false
+  period: 10s
+  hosts: ["localhost"]
+

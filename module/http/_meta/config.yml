@@ -1,0 +1,6 @@
+- module: http
+  metricsets: ["prom"]
+  enabled: false
+  period: 10s
+  hosts: ["localhost"]
+

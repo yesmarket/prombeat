@@ -1,0 +1,14 @@
+////
+This file is generated! See scripts/docs_collector.py
+////
+
+[options="header"]
+|===================================
+|Modules   |Dashboards   |Metricsets   
+|<<metricbeat-module-http,http>>  experimental[]   |image:./images/icon-no.png[No prebuilt dashboards]    |  
+.1+| .1+|  |<<metricbeat-metricset-http-prom,prom>> experimental[]  
+|================================
+
+--
+
+include::modules/http.asciidoc[]
